@@ -21,9 +21,12 @@ var countDown =function(){
     }, 1000);
 }
 
-var startQuiz = function() {
+var startQuiz = function(event) {
     event.preventDefault();
     countDown()
+    formEl.querySelector("#questions").textContent = "1. This will be your first Question";
+    formEl.querySelector("#quizAnwsers").innerHTML = "<input type='radio' name='trainer-confirm' id='trainer-yes' /><label for='trainer-yes'>Yes <br/><input type='radio' name='trainer-confirm' id='trainer-yes' /><label for='trainer-no'>no"
+    formEl.querySelector("#submit").textContent = "Submit Anwser";
 }
 
 var formEl = document.querySelector("#quiz-form");

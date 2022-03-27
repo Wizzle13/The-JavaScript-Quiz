@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #7d60e6;
+    /* color: #7d60e6 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* below are all elements contained in the header */
+header {
+    background: #76e660;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.highScore {
+        
+}
+
+.pageTitle {
+       
+}
+
+.timer {
+        
+}
+
+
+/* below are all elements contained in the main */
+
+main {
+    background: #b3300f;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top;
+}
+
+form {
+    padding-top: 10vh;
+    width: 50vh;
+}
+
+.into-question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+button {
+    color: pink;
+    background-color:green;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+  } 
+  
+button:hover {
+    background-color:orange;
+  }
+
+
+/* below are all elements contained in the footer */
+footer {
+    background: white;
+    min-height: 10vh;
+}

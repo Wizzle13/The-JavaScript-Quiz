@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #7d60e6;
+    background: purple;
     /* color: #7d60e6 */
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
 
 /* below are all elements contained in the header */
 header {
-    background: #76e660;
+    background: purple;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -40,7 +40,7 @@ header {
 /* below are all elements contained in the main */
 
 main {
-    background: #b3300f;
+    background: white;
     min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
@@ -59,8 +59,8 @@ form {
 }
 
 button {
-    color: pink;
-    background-color:green;
+    color: black;
+    background-color:red;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -68,12 +68,12 @@ button {
   } 
   
 button:hover {
-    background-color:orange;
+    background-color:green;
   }
 
 
 /* below are all elements contained in the footer */
 footer {
-    background: white;
+    background: purple;
     min-height: 10vh;
 }

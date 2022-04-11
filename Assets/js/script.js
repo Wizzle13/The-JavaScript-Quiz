@@ -4,6 +4,7 @@ var i = 0;
 var quizStarted = "no";
 var score = "0";
 
+
 //  quiz/game timer section
 var countDown =function(){
     var timeInterval = setInterval(function () {
